@@ -6,16 +6,14 @@
 </head>
 
 <body>
-	<div class="tony">
+	<div class="buttons">
 		<img class="logo" src="NJITLOGO.png"/>
 		<br/>
-		<a class="link" href="yourpage.htm" target="_blank" onClick="window.open('Presentation1.html','pagename','residable,height=800,width=1400'); return false;">Presentation#1 - New Window to embedded google slides</a>		
+		<a class="link" href="yourpage.htm" target="_blank" onClick="window.open('Presentation1.html','pagename','residable,height=800,width=1400'); return false;">Presentation#1 - New Window to embedded glissner presentation</a>		
 		<a class="link" href="#" onClick="MyWindow=window.open('https://docs.google.com/presentation/d/e/2PACX-1vR4wUB_5G_bVqPsUfb2aYbT08KVJng5B2wMjUF25qrNyxNXy4HbFOXlLth5jzBPbPU8xDyYW6R91Cqd/embed?start=false&loop=false&delayms=3000','MyWindow',width=600,height=300); return false;">Presentation#2 - New window of only google slides presentation</a>
-		<a class="link" href="#" onClick="MyWindow=window.open('https://www.emaze.com/@AOLRQTILR/business-strategy','MyWindow',width=600,height=300); return false;">Presentation #3 - New window to Emaze Presentation</a>	
+		<a class="link" href="#" onClick="MyWindow=window.open('https://web.njit.edu/~ajm67/glissner.html); return false;">Presentation #3 - New window to Glissner test page</a>	
 		<br/>
-		<p> Example of an embedded powerpoint (below): </p>
-		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSgrIKwwWFXWB6nXQ_RHKGGFM74pzMBpNYSfV3eOkLabDQymvDt06-_mcMtS3stLUzqQqp0e-kDPfXi/embed?start=true&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSgrIKwwWFXWB6nXQ_RHKGGFM74pzMBpNYSfV3eOkLabDQymvDt06-_mcMtS3stLUzqQqp0e-kDPfXi/pub?start=false&loop=false&delayms=3000" frameborder="0" width="660" height="370"  mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-	</div>
+		</div>
 
 <!--
 	<div class="slider-holder">
@@ -41,7 +39,7 @@
 		body {
 			background-color: #f5f5f5;
 		}
-		.tony {
+		.buttons {
 			margin: 50px 10px;
 			display:flex;align-items:center;
 			justify-content:center;
@@ -122,6 +120,14 @@
             border-radius: 5px;
             background-color: brown;
         }
+		iframe 
+		{
+			display: block;
+		background: #000;
+		border: none;
+		height: calc(100vh - 30px);
+		width: 100%;
+		}
 		</style>
 
 
